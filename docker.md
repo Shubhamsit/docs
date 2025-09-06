@@ -112,3 +112,27 @@ volumes:
 
 
 ```
+
+
+### How to get Postgres coneection string using Docker 
+
+- Database name = raga
+
+- Username = raga_user
+
+- Password = raga_password
+
+- Host = localhost (or 127.0.0.1)
+
+- Port = 5432
+
+```
+postgresql://<username>:<password>@<host>:<port>/<database>
+
+```
+
+```
+postgresql://raga_user:raga_password@localhost:5432/raga
+
+
+```
